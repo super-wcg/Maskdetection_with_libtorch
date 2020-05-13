@@ -1,0 +1,711 @@
+﻿  libtorchtest.cpp
+F:\Facemask\libtorch\libtorch\include\c10\util\Exception.h(28,45): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“c10::Error”的基
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\vcruntime_exception.h(48): message : 参见“std::exception”的声明
+F:\Facemask\libtorch\libtorch\include\c10\util\Exception.h(28): message : 参见“c10::Error”的声明
+F:\Facemask\libtorch\libtorch\include\c10\util\Exception.h(29,38): warning C4251: “c10::Error::msg_stack_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 class“c10::Error”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\util\Exception.h(29): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\util\Exception.h(30,25): warning C4251: “c10::Error::backtrace_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“c10::Error”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\xstring(4471): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\util\Exception.h(35,19): warning C4251: “c10::Error::msg_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“c10::Error”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\xstring(4471): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\util\Exception.h(36,37): warning C4251: “c10::Error::msg_without_backtrace_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“c10::Error”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\xstring(4471): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\core\Allocator.h(21,34): warning C4251: “c10::DataPtr::ptr_”: class“c10::detail::UniqueVoidPtr”需要有 dll 接口由 class“c10::DataPtr”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\util\UniqueVoidPtr.h(38): message : 参见“c10::detail::UniqueVoidPtr”的声明
+F:\Facemask\libtorch\libtorch\include\c10\core\Allocator.h(183,57): warning C4251: “c10::InefficientStdFunctionContext::ptr_”: class“std::unique_ptr<void,std::function<void (void *)>>”需要有 dll 接口由 struct“c10::InefficientStdFunctionContext”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\core\Allocator.h(183): message : 参见“std::unique_ptr<void,std::function<void (void *)>>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(172,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(175,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(178,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(181,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(185,28): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(188,28): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(191,28): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(194,28): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(200,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(203,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(206,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(209,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(213,28): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(216,28): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(219,28): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\Half-inl.h(222,28): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(148,36): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(151,36): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(154,36): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(157,36): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(161,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(164,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(167,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(170,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(176,36): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(179,36): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(182,36): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(185,36): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(189,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(192,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(195,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\BFloat16-inl.h(198,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\intrusive_ptr.h(63,40): warning C4251: “c10::intrusive_ptr_target::refcount_”: struct“std::atomic<unsigned __int64>”需要有 dll 接口由 class“c10::intrusive_ptr_target”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\atomic(1885): message : 参见“std::atomic<unsigned __int64>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\util\intrusive_ptr.h(64,41): warning C4251: “c10::intrusive_ptr_target::weakcount_”: struct“std::atomic<unsigned __int64>”需要有 dll 接口由 class“c10::intrusive_ptr_target”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\atomic(1885): message : 参见“std::atomic<unsigned __int64>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\util\intrusive_ptr.h(721,13): warning C4267: “return”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\intrusive_ptr.h(752,13): warning C4267: “return”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\core\Storage.h(181,48): warning C4251: “c10::Storage::storage_impl_”: class“c10::intrusive_ptr<c10::StorageImpl,c10::detail::intrusive_target_default_null_type<TTarget>>”需要有 dll 接口由 struct“c10::Storage”的客户端使用
+          with
+          [
+              TTarget=c10::StorageImpl
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\core\Storage.h(10): message : 参见“c10::intrusive_ptr<c10::StorageImpl,c10::detail::intrusive_target_default_null_type<TTarget>>”的声明
+          with
+          [
+              TTarget=c10::StorageImpl
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\llvmMathExtras.h(395,32): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+F:\Facemask\libtorch\libtorch\include\c10\util\llvmMathExtras.h(540,40): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\llvmMathExtras.h(546,40): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\llvmMathExtras.h(553,44): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\llvmMathExtras.h(559,44): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\util\logging_is_not_google_glog.h(47,28): warning C4251: “c10::MessageLogger::stream_”: class“std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“c10::MessageLogger”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\iosfwd(222): message : 参见“std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorImpl.h(201,54): warning C4251: “c10::VariableVersion::version_counter_”: class“c10::intrusive_ptr<c10::VariableVersion::VersionCounter,c10::detail::intrusive_target_default_null_type<TTarget>>”需要有 dll 接口由 struct“c10::VariableVersion”的客户端使用
+          with
+          [
+              TTarget=c10::VariableVersion::VersionCounter
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorImpl.h(201): message : 参见“c10::intrusive_ptr<c10::VariableVersion::VersionCounter,c10::detail::intrusive_target_default_null_type<TTarget>>”的声明
+          with
+          [
+              TTarget=c10::VariableVersion::VersionCounter
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorImpl.h(1574,71): warning C4251: “c10::TensorImpl::autograd_meta_”: class“std::unique_ptr<c10::AutogradMetaInterface,std::default_delete<c10::AutogradMetaInterface>>”需要有 dll 接口由 struct“c10::TensorImpl”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorImpl.h(833): message : 参见“std::unique_ptr<c10::AutogradMetaInterface,std::default_delete<c10::AutogradMetaInterface>>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorImpl.h(1577,78): warning C4251: “c10::TensorImpl::named_tensor_meta_”: class“std::unique_ptr<c10::NamedTensorMetaInterface,std::default_delete<c10::NamedTensorMetaInterface>>”需要有 dll 接口由 struct“c10::TensorImpl”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorImpl.h(148): message : 参见“std::unique_ptr<c10::NamedTensorMetaInterface,std::default_delete<c10::NamedTensorMetaInterface>>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorImpl.h(1599,32): warning C4251: “c10::TensorImpl::sizes_”: class“c10::SmallVector<int64_t,5>”需要有 dll 接口由 struct“c10::TensorImpl”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorImpl.h(1599): message : 参见“c10::SmallVector<int64_t,5>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorImpl.h(1600,34): warning C4251: “c10::TensorImpl::strides_”: class“c10::SmallVector<int64_t,5>”需要有 dll 接口由 struct“c10::TensorImpl”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorImpl.h(1599): message : 参见“c10::SmallVector<int64_t,5>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorImpl.h(1625,41): warning C4251: “c10::TensorImpl::device_opt_”: class“c10::optional<c10::Device>”需要有 dll 接口由 struct“c10::TensorImpl”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorOptions.h(172): message : 参见“c10::optional<c10::Device>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorImpl.h(1628,26): warning C4251: “c10::TensorImpl::type_set_”: class“c10::TensorTypeSet”需要有 dll 接口由 struct“c10::TensorImpl”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorTypeSet.h(34): message : 参见“c10::TensorTypeSet”的声明
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorImpl.h(1049,30): warning C4244: “参数”: 从“float”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=size_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorImpl.h(1397,24): warning C4244: “初始化”: 从“int64_t”转换到“int”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\ATen\core\DeprecatedTypePropertiesRegistry.h(27,8): warning C4251: “at::DeprecatedTypePropertiesRegistry::registry”: class“std::unique_ptr<at::DeprecatedTypeProperties,std::default_delete<at::DeprecatedTypeProperties>>”需要有 dll 接口由 class“at::DeprecatedTypePropertiesRegistry”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\DeprecatedTypePropertiesRegistry.h(24): message : 参见“std::unique_ptr<at::DeprecatedTypeProperties,std::default_delete<at::DeprecatedTypeProperties>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\Generator.h(75,20): warning C4251: “at::Generator::mutex_”: class“std::mutex”需要有 dll 接口由 struct“at::Generator”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\mutex(87): message : 参见“std::mutex”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\NamedTensor.h(53,30): warning C4251: “at::NamedTensorMeta::names_”: class“std::vector<at::Dimname,std::allocator<at::Dimname>>”需要有 dll 接口由 struct“at::NamedTensorMeta”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\NamedTensor.h(27): message : 参见“std::vector<at::Dimname,std::allocator<at::Dimname>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\TensorBody.h(999,60): warning C4251: “at::Tensor::impl_”: class“c10::intrusive_ptr<c10::TensorImpl,c10::UndefinedTensorImpl>”需要有 dll 接口由 class“at::Tensor”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\TensorBody.h(70): message : 参见“c10::intrusive_ptr<c10::TensorImpl,c10::UndefinedTensorImpl>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(65,61): warning C4251: “std::enable_shared_from_this<c10::Type>::_Wptr”: class“std::weak_ptr<_Ty>”需要有 dll 接口由 class“std::enable_shared_from_this<c10::Type>”的客户端使用
+          with
+          [
+              _Ty=c10::Type
+          ]
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\memory(1712): message : 参见“std::weak_ptr<_Ty>”的声明
+          with
+          [
+              _Ty=c10::Type
+          ]
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(240,70): warning C4251: “c10::SingleElementType<c10::TypeKind::OptionalType,c10::OptionalType>::elem”: class“std::shared_ptr<c10::Type>”需要有 dll 接口由 struct“c10::SingleElementType<c10::TypeKind::OptionalType,c10::OptionalType>”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue.h(23): message : 参见“std::shared_ptr<c10::Type>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(369,42): warning C4251: “c10::VaryingShape::dims_”: class“c10::optional<c10::VaryingShape::ListOfOptionalInts>”需要有 dll 接口由 struct“c10::VaryingShape”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(336): message : 参见“c10::optional<c10::VaryingShape::ListOfOptionalInts>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(602,45): warning C4251: “c10::TensorType::scalar_type_”: class“c10::optional<c10::ScalarType>”需要有 dll 接口由 struct“c10::TensorType”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\core\ScalarType.h(187): message : 参见“c10::optional<c10::ScalarType>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(603,36): warning C4251: “c10::TensorType::device_”: class“c10::optional<c10::Device>”需要有 dll 接口由 struct“c10::TensorType”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorOptions.h(172): message : 参见“c10::optional<c10::Device>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(606,37): warning C4251: “c10::TensorType::requires_grad_”: class“c10::optional<bool>”需要有 dll 接口由 struct“c10::TensorType”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorOptions.h(225): message : 参见“c10::optional<bool>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(618,33): warning C4251: “c10::TensorType::undefined_”: class“c10::optional<bool>”需要有 dll 接口由 struct“c10::TensorType”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\core\TensorOptions.h(225): message : 参见“c10::optional<bool>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(477,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(480,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(624,62): warning C4251: “c10::SingleElementType<c10::TypeKind::ListType,c10::ListType>::elem”: class“std::shared_ptr<c10::Type>”需要有 dll 接口由 struct“c10::SingleElementType<c10::TypeKind::ListType,c10::ListType>”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue.h(23): message : 参见“std::shared_ptr<c10::Type>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(733,29): warning C4251: “c10::DictType::types”: class“std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>”需要有 dll 接口由 struct“c10::DictType”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(150): message : 参见“std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(741,66): warning C4251: “c10::SingleElementType<c10::TypeKind::FutureType,c10::FutureType>::elem”: class“std::shared_ptr<c10::Type>”需要有 dll 接口由 struct“c10::SingleElementType<c10::TypeKind::FutureType,c10::FutureType>”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue.h(23): message : 参见“std::shared_ptr<c10::Type>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(782,37): warning C4251: “c10::NamedType::name_”: class“c10::optional<c10::QualifiedName>”需要有 dll 接口由 struct“c10::NamedType”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(773): message : 参见“c10::optional<c10::QualifiedName>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(854,33): warning C4251: “c10::TupleType::elements_”: class“std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>”需要有 dll 接口由 struct“c10::TupleType”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(150): message : 参见“std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(856,42): warning C4251: “c10::TupleType::schema_”: class“std::shared_ptr<c10::FunctionSchema>”需要有 dll 接口由 struct“c10::TupleType”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(790): message : 参见“std::shared_ptr<c10::FunctionSchema>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(1515,43): warning C4251: “c10::ClassType::attributeNames_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 struct“c10::ClassType”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\util\Exception.h(29): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(1516,39): warning C4251: “c10::ClassType::attributeTypes_”: class“std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>”需要有 dll 接口由 struct“c10::ClassType”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(150): message : 参见“std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(1518,51): warning C4251: “c10::ClassType::compilation_unit_”: class“std::weak_ptr<torch::jit::script::CompilationUnit>”需要有 dll 接口由 struct“c10::ClassType”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(1357): message : 参见“std::weak_ptr<torch::jit::script::CompilationUnit>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(1522,53): warning C4251: “c10::ClassType::parameterSlots_”: class“std::shared_ptr<std::vector<bool,std::allocator<bool>>>”需要有 dll 接口由 struct“c10::ClassType”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(1522): message : 参见“std::shared_ptr<std::vector<bool,std::allocator<bool>>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(1525,34): warning C4251: “c10::ClassType::methods_”: class“std::vector<torch::jit::Function *,std::allocator<torch::jit::Function *>>”需要有 dll 接口由 struct“c10::ClassType”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(1409): message : 参见“std::vector<torch::jit::Function *,std::allocator<torch::jit::Function *>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(1572,56): warning C4251: “c10::InterfaceType::methods_”: class“std::shared_ptr<std::vector<c10::FunctionSchema,std::allocator<c10::FunctionSchema>>>”需要有 dll 接口由 struct“c10::InterfaceType”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(1572): message : 参见“std::shared_ptr<std::vector<c10::FunctionSchema,std::allocator<c10::FunctionSchema>>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\Dict_inl.h(50,41): warning C4244: “参数”: 从“int64_t”转换到“const _Kty”，可能丢失数据
+          with
+          [
+              _Kty=int
+          ]
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(118,25): warning C4251: “c10::ivalue::ConstantString::str_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“c10::ivalue::ConstantString”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\xstring(4471): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(138,32): warning C4251: “c10::ivalue::Tuple::elements_”: class“std::vector<StorageT,std::allocator<StorageT>>”需要有 dll 接口由 struct“c10::ivalue::Tuple”的客户端使用
+          with
+          [
+              StorageT=c10::IValue
+          ]
+F:\Facemask\libtorch\libtorch\include\ATen\core\List.h(24): message : 参见“std::vector<StorageT,std::allocator<StorageT>>”的声明
+          with
+          [
+              StorageT=c10::IValue
+          ]
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(139,43): warning C4251: “c10::ivalue::Tuple::type_”: class“std::shared_ptr<c10::TupleType>”需要有 dll 接口由 struct“c10::ivalue::Tuple”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(786): message : 参见“std::shared_ptr<c10::TupleType>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(195,63): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“c10::ivalue::Future::FutureError”的基
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\vcruntime_exception.h(48): message : 参见“std::exception”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(195): message : 参见“c10::ivalue::Future::FutureError”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(205,26): warning C4251: “c10::ivalue::Future::FutureError::error_msg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“c10::ivalue::Future::FutureError”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\xstring(4471): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(296,20): warning C4251: “c10::ivalue::Future::mutex_”: class“std::mutex”需要有 dll 接口由 struct“c10::ivalue::Future”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\mutex(87): message : 参见“std::mutex”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(297,40): warning C4251: “c10::ivalue::Future::completed_”: struct“std::atomic<bool>”需要有 dll 接口由 struct“c10::ivalue::Future”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\atomic(1873): message : 参见“std::atomic<bool>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(298,39): warning C4251: “c10::ivalue::Future::finished_cv_”: class“std::condition_variable”需要有 dll 接口由 struct“c10::ivalue::Future”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\mutex(573): message : 参见“std::condition_variable”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(301,16): warning C4251: “c10::ivalue::Future::type_”: class“std::shared_ptr<c10::Type>”需要有 dll 接口由 struct“c10::ivalue::Future”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue.h(23): message : 参见“std::shared_ptr<c10::Type>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(302,51): warning C4251: “c10::ivalue::Future::callbacks”: class“std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>”需要有 dll 接口由 struct“c10::ivalue::Future”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(302): message : 参见“std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(370,22): warning C4251: “c10::ivalue::Object::type_”: struct“c10::StrongTypePtr”需要有 dll 接口由 struct“c10::ivalue::Object”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue.h(586): message : 参见“c10::StrongTypePtr”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(371,29): warning C4251: “c10::ivalue::Object::slots_”: class“std::vector<StorageT,std::allocator<StorageT>>”需要有 dll 接口由 struct“c10::ivalue::Object”的客户端使用
+          with
+          [
+              StorageT=c10::IValue
+          ]
+F:\Facemask\libtorch\libtorch\include\ATen\core\List.h(24): message : 参见“std::vector<StorageT,std::allocator<StorageT>>”的声明
+          with
+          [
+              StorageT=c10::IValue
+          ]
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(410,1): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(412,1): warning C4244: “return”: 从“int64_t”转换到“unsigned char”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(413,1): warning C4244: “return”: 从“int64_t”转换到“signed char”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(414,1): warning C4244: “return”: 从“int64_t”转换到“unsigned short”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(415,1): warning C4244: “return”: 从“int64_t”转换到“short”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(416,1): warning C4244: “return”: 从“int64_t”转换到“int”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(417,1): warning C4244: “return”: 从“int64_t”转换到“uint32_t”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue_inl.h(419,1): warning C4244: “return”: 从“int64_t”转换到“c10::detail::_guarded_unsigned_long”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\ATen\core\ATenDispatch.h(119,22): warning C4251: “at::ATenOpTable::schema_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“at::ATenOpTable”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\xstring(4471): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\ATenDispatch.h(143,58): warning C4251: “at::ATenDispatch::op_tables_”: class“std::unordered_map<std::string,at::ATenOpTable,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,at::ATenOpTable>>>”需要有 dll 接口由 class“at::ATenDispatch”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\ATenDispatch.h(143): message : 参见“std::unordered_map<std::string,at::ATenOpTable,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,at::ATenOpTable>>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\ATenDispatch.h(144,20): warning C4251: “at::ATenDispatch::mutex_”: class“std::mutex”需要有 dll 接口由 class“at::ATenDispatch”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\mutex(87): message : 参见“std::mutex”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\boxing\KernelFunction.h(375,67): warning C4251: “c10::KernelFunction::functorFactory_”: class“std::function<std::unique_ptr<c10::OperatorKernel,std::default_delete<c10::OperatorKernel>> (void)>”需要有 dll 接口由 class“c10::KernelFunction”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\boxing\KernelFunction.h(198): message : 参见“std::function<std::unique_ptr<c10::OperatorKernel,std::default_delete<c10::OperatorKernel>> (void)>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\boxing\KernelFunction.h(376,51): warning C4251: “c10::KernelFunction::functor_”: class“std::shared_ptr<c10::OperatorKernel>”需要有 dll 接口由 class“c10::KernelFunction”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\boxing\KernelFunction.h(376): message : 参见“std::shared_ptr<c10::OperatorKernel>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\dispatch\Dispatcher.h(116,36): warning C4251: “c10::Dispatcher::operators_”: class“std::list<c10::Dispatcher::OperatorDef,std::allocator<c10::Dispatcher::OperatorDef>>”需要有 dll 接口由 class“c10::Dispatcher”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\dispatch\Dispatcher.h(116): message : 参见“std::list<c10::Dispatcher::OperatorDef,std::allocator<c10::Dispatcher::OperatorDef>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\dispatch\Dispatcher.h(117,83): warning C4251: “c10::Dispatcher::operatorLookupTable_”: class“c10::LeftRight<ska::flat_hash_map<c10::OperatorName,c10::OperatorHandle,std::hash<c10::OperatorName>,std::equal_to<K>,std::allocator<std::pair<K,V>>>>”需要有 dll 接口由 class“c10::Dispatcher”的客户端使用
+          with
+          [
+              K=c10::OperatorName,
+              V=c10::OperatorHandle
+          ]
+F:\Facemask\libtorch\libtorch\include\ATen\core\dispatch\Dispatcher.h(117): message : 参见“c10::LeftRight<ska::flat_hash_map<c10::OperatorName,c10::OperatorHandle,std::hash<c10::OperatorName>,std::equal_to<K>,std::allocator<std::pair<K,V>>>>”的声明
+          with
+          [
+              K=c10::OperatorName,
+              V=c10::OperatorHandle
+          ]
+F:\Facemask\libtorch\libtorch\include\ATen\core\dispatch\Dispatcher.h(118,63): warning C4251: “c10::Dispatcher::listeners_”: class“std::unique_ptr<c10::detail::RegistrationListenerList,std::default_delete<c10::detail::RegistrationListenerList>>”需要有 dll 接口由 class“c10::Dispatcher”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\dispatch\Dispatcher.h(118): message : 参见“std::unique_ptr<c10::detail::RegistrationListenerList,std::default_delete<c10::detail::RegistrationListenerList>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\dispatch\Dispatcher.h(119,20): warning C4251: “c10::Dispatcher::mutex_”: class“std::mutex”需要有 dll 接口由 class“c10::Dispatcher”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\mutex(87): message : 参见“std::mutex”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\dispatch\Dispatcher.h(147,65): warning C4251: “c10::OperatorHandle::operatorIterator_”: class“std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>”需要有 dll 接口由 class“c10::OperatorHandle”的客户端使用
+          with
+          [
+              _Ty=c10::Dispatcher::OperatorDef
+          ]
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\list(796): message : 参见“std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>”的声明
+          with
+          [
+              _Ty=c10::Dispatcher::OperatorDef
+          ]
+F:\Facemask\libtorch\libtorch\include\ATen\core\dispatch\Dispatcher.h(162,45): warning C4251: “c10::SchemaRegistrationHandleRAII::registrationHandle_”: class“c10::RegistrationHandleRAII”需要有 dll 接口由 class“c10::SchemaRegistrationHandleRAII”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\dispatch\RegistrationHandleRAII.h(7): message : 参见“c10::RegistrationHandleRAII”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\CPUGenerator.h(32,22): warning C4251: “at::CPUGenerator::engine_”: class“at::mt19937_engine”需要有 dll 接口由 struct“at::CPUGenerator”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\MT19937RNGEngine.h(106): message : 参见“at::mt19937_engine”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\CPUGenerator.h(33,49): warning C4251: “at::CPUGenerator::next_float_normal_sample_”: class“c10::optional<float>”需要有 dll 接口由 struct“at::CPUGenerator”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\CPUGenerator.h(23): message : 参见“c10::optional<float>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\CPUGenerator.h(34,51): warning C4251: “at::CPUGenerator::next_double_normal_sample_”: class“c10::optional<double>”需要有 dll 接口由 struct“at::CPUGenerator”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\CPUGenerator.h(24): message : 参见“c10::optional<double>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\core\Stream.h(135,47): warning C4244: “参数”: 从“unsigned __int64”转换到“c10::DeviceIndex”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\c10\core\Stream.h(135,62): warning C4244: “参数”: 从“unsigned __int64”转换到“c10::StreamId”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\ATen\Context.h(124,26): warning C4251: “at::Context::thc_init”: struct“std::once_flag”需要有 dll 接口由 class“at::Context”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\xcall_once.h(21): message : 参见“std::once_flag”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\Context.h(125,26): warning C4251: “at::Context::thh_init”: struct“std::once_flag”需要有 dll 接口由 class“at::Context”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\xcall_once.h(21): message : 参见“std::once_flag”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\Context.h(130,61): warning C4251: “at::Context::quantized_engine”: class“c10::optional<c10::QEngine>”需要有 dll 接口由 class“at::Context”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\Context.h(130): message : 参见“c10::optional<c10::QEngine>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\Context.h(131,58): warning C4251: “at::Context::thc_state”: class“std::unique_ptr<THCState,void (__cdecl *)(THCState *)>”需要有 dll 接口由 class“at::Context”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\detail\CUDAHooksInterface.h(62): message : 参见“std::unique_ptr<THCState,void (__cdecl *)(THCState *)>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\Context.h(132,58): warning C4251: “at::Context::thh_state”: class“std::unique_ptr<THHState,void (__cdecl *)(THHState *)>”需要有 dll 接口由 class“at::Context”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\detail\HIPHooksInterface.h(33): message : 参见“std::unique_ptr<THHState,void (__cdecl *)(THHState *)>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\TensorGeometry.h(56,30): warning C4251: “at::TensorGeometry::sizes_”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 struct“at::TensorGeometry”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\core\MemoryFormat.h(44): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\TensorGeometry.h(57,32): warning C4251: “at::TensorGeometry::strides_”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 struct“at::TensorGeometry”的客户端使用
+F:\Facemask\libtorch\libtorch\include\c10\core\MemoryFormat.h(44): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\autograd\variable.h(352,19): warning C4251: “torch::autograd::Variable::AutogradMeta::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“torch::autograd::Variable::AutogradMeta”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\xstring(4471): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\autograd\variable.h(355,33): warning C4251: “torch::autograd::Variable::AutogradMeta::grad_fn_”: class“std::shared_ptr<torch::autograd::Node>”需要有 dll 接口由 struct“torch::autograd::Variable::AutogradMeta”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\autograd\edge.h(17): message : 参见“std::shared_ptr<torch::autograd::Node>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\autograd\variable.h(356,40): warning C4251: “torch::autograd::Variable::AutogradMeta::grad_accumulator_”: class“std::weak_ptr<torch::autograd::Node>”需要有 dll 接口由 struct“torch::autograd::Variable::AutogradMeta”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\autograd\variable.h(186): message : 参见“std::weak_ptr<torch::autograd::Node>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\autograd\variable.h(358,55): warning C4251: “torch::autograd::Variable::AutogradMeta::hooks_”: class“std::vector<std::shared_ptr<torch::autograd::FunctionPreHook>,std::allocator<std::shared_ptr<torch::autograd::FunctionPreHook>>>”需要有 dll 接口由 struct“torch::autograd::Variable::AutogradMeta”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\autograd\variable.h(293): message : 参见“std::vector<std::shared_ptr<torch::autograd::FunctionPreHook>,std::allocator<std::shared_ptr<torch::autograd::FunctionPreHook>>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\autograd\variable.h(359,45): warning C4251: “torch::autograd::Variable::AutogradMeta::cpp_hooks_list”: class“std::shared_ptr<torch::autograd::hooks_list>”需要有 dll 接口由 struct“torch::autograd::Variable::AutogradMeta”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\autograd\cpp_hook.h(11): message : 参见“std::shared_ptr<torch::autograd::hooks_list>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\autograd\variable.h(375,20): warning C4251: “torch::autograd::Variable::AutogradMeta::mutex_”: class“std::mutex”需要有 dll 接口由 struct“torch::autograd::Variable::AutogradMeta”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\mutex(87): message : 参见“std::mutex”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(45,57): warning C4251: “std::enable_shared_from_this<torch::jit::tracer::TracingState>::_Wptr”: class“std::weak_ptr<_Ty>”需要有 dll 接口由 class“std::enable_shared_from_this<torch::jit::tracer::TracingState>”的客户端使用
+          with
+          [
+              _Ty=torch::jit::tracer::TracingState
+          ]
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\memory(1712): message : 参见“std::weak_ptr<_Ty>”的声明
+          with
+          [
+              _Ty=torch::jit::tracer::TracingState
+          ]
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(49,31): warning C4251: “torch::jit::tracer::TracingState::graph”: class“std::shared_ptr<torch::jit::Graph>”需要有 dll 接口由 struct“torch::jit::tracer::TracingState”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(49): message : 参见“std::shared_ptr<torch::jit::Graph>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(53,45): warning C4251: “torch::jit::tracer::TracingState::lookup_var_name_fn”: class“std::function<std::string (const torch::autograd::Variable &)>”需要有 dll 接口由 struct“torch::jit::tracer::TracingState”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(52): message : 参见“std::function<std::string (const torch::autograd::Variable &)>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(85,31): warning C4251: “torch::jit::tracer::TracingState::env_stack”: class“std::vector<torch::jit::tracer::TracingState::Frame,std::allocator<torch::jit::tracer::TracingState::Frame>>”需要有 dll 接口由 struct“torch::jit::tracer::TracingState”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(85): message : 参见“std::vector<torch::jit::tracer::TracingState::Frame,std::allocator<torch::jit::tracer::TracingState::Frame>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(181,38): warning C4251: “torch::jit::tracer::NoWarn::state”: class“std::shared_ptr<_Ty>”需要有 dll 接口由 struct“torch::jit::tracer::NoWarn”的客户端使用
+          with
+          [
+              _Ty=torch::jit::tracer::TracingState
+          ]
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\memory(1704): message : 参见“std::shared_ptr<_Ty>”的声明
+          with
+          [
+              _Ty=torch::jit::tracer::TracingState
+          ]
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(307,72): warning C4273: “torch::jit::tracer::addInputs”: dll 链接不一致
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(295,16): message : 参见“addInputs”的前一个定义
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(314,1): warning C4273: “torch::jit::tracer::addInputs”: dll 链接不一致
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(301,16): message : 参见“addInputs”的前一个定义
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\attributes.h(87,52): warning C4275: 非 dll 接口 struct“torch::jit::AttributeValue”用作 dll 接口 struct“torch::jit::GraphAttr”的基
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\attributes.h(25): message : 参见“torch::jit::AttributeValue”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\attributes.h(87): message : 参见“torch::jit::GraphAttr”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\attributes.h(101,32): warning C4251: “torch::jit::GraphAttr::value_”: class“std::shared_ptr<torch::jit::Graph>”需要有 dll 接口由 struct“torch::jit::GraphAttr”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(49): message : 参见“std::shared_ptr<torch::jit::Graph>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\attributes.h(104,53): warning C4275: 非 dll 接口 struct“torch::jit::AttributeValue”用作 dll 接口 struct“torch::jit::GraphsAttr”的基
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\attributes.h(25): message : 参见“torch::jit::AttributeValue”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\attributes.h(104): message : 参见“torch::jit::GraphsAttr”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\attributes.h(118,19): warning C4251: “torch::jit::GraphsAttr::value_”: class“std::vector<std::shared_ptr<torch::jit::Graph>,std::allocator<std::shared_ptr<torch::jit::Graph>>>”需要有 dll 接口由 struct“torch::jit::GraphsAttr”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\attributes.h(105): message : 参见“std::vector<std::shared_ptr<torch::jit::Graph>,std::allocator<std::shared_ptr<torch::jit::Graph>>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\scope.h(22,19): warning C4251: “torch::jit::Scope::parent_”: class“c10::intrusive_ptr<torch::jit::Scope,c10::detail::intrusive_target_default_null_type<TTarget>>”需要有 dll 接口由 struct“torch::jit::Scope”的客户端使用
+          with
+          [
+              TTarget=torch::jit::Scope
+          ]
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\scope.h(17): message : 参见“c10::intrusive_ptr<torch::jit::Scope,c10::detail::intrusive_target_default_null_type<TTarget>>”的声明
+          with
+          [
+              TTarget=torch::jit::Scope
+          ]
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\source_range.h(163,34): warning C4251: “torch::jit::SourceRange::source_”: class“std::shared_ptr<torch::jit::Source>”需要有 dll 接口由 struct“torch::jit::SourceRange”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\source_range.h(105): message : 参见“std::shared_ptr<torch::jit::Source>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\constants.h(20,75): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“torch::jit::constant_not_supported_error”的基
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\stdexcept(117): message : 参见“std::runtime_error”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\constants.h(20): message : 参见“torch::jit::constant_not_supported_error”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\operator.h(154,52): warning C4251: “torch::jit::Operator::schema_string_”: class“c10::optional<std::string>”需要有 dll 接口由 struct“torch::jit::Operator”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(1327): message : 参见“c10::optional<std::string>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\operator.h(158,50): warning C4251: “torch::jit::Operator::schema_”: class“std::shared_ptr<c10::FunctionSchema>”需要有 dll 接口由 struct“torch::jit::Operator”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(790): message : 参见“std::shared_ptr<c10::FunctionSchema>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\operator.h(162,33): warning C4251: “torch::jit::Operator::op_”: class“std::shared_ptr<torch::jit::Operation>”需要有 dll 接口由 struct“torch::jit::Operator”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\operator.h(162): message : 参见“std::shared_ptr<torch::jit::Operation>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\operator.h(164,48): warning C4251: “torch::jit::Operator::c10Handle_”: class“c10::optional<c10::OperatorHandle>”需要有 dll 接口由 struct“torch::jit::Operator”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\dispatch\Dispatcher.h(72): message : 参见“c10::optional<c10::OperatorHandle>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\operator.h(165,32): warning C4251: “torch::jit::Operator::options_”: struct“c10::OperatorOptions”需要有 dll 接口由 struct“torch::jit::Operator”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\dispatch\OperatorOptions.h(33): message : 参见“c10::OperatorOptions”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\ir.h(245,30): warning C4251: “torch::jit::Node::inputs_”: class“std::vector<torch::jit::Value *,std::allocator<torch::jit::Value *>>”需要有 dll 接口由 struct“torch::jit::Node”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(97): message : 参见“std::vector<torch::jit::Value *,std::allocator<torch::jit::Value *>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\ir.h(246,31): warning C4251: “torch::jit::Node::outputs_”: class“std::vector<torch::jit::Value *,std::allocator<torch::jit::Value *>>”需要有 dll 接口由 struct“torch::jit::Node”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(97): message : 参见“std::vector<torch::jit::Value *,std::allocator<torch::jit::Value *>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\ir.h(248,30): warning C4251: “torch::jit::Node::blocks_”: class“std::vector<torch::jit::Block *,std::allocator<torch::jit::Block *>>”需要有 dll 接口由 struct“torch::jit::Node”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\ir.h(248): message : 参见“std::vector<torch::jit::Block *,std::allocator<torch::jit::Block *>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\ir.h(251,43): warning C4251: “torch::jit::Node::source_range_”: class“c10::optional<torch::jit::SourceRange>”需要有 dll 接口由 struct“torch::jit::Node”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\source_range.h(80): message : 参见“c10::optional<torch::jit::SourceRange>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\ir.h(252,18): warning C4251: “torch::jit::Node::scope_”: class“c10::intrusive_ptr<torch::jit::Scope,c10::detail::intrusive_target_default_null_type<TTarget>>”需要有 dll 接口由 struct“torch::jit::Node”的客户端使用
+          with
+          [
+              TTarget=torch::jit::Scope
+          ]
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\scope.h(17): message : 参见“c10::intrusive_ptr<torch::jit::Scope,c10::detail::intrusive_target_default_null_type<TTarget>>”的声明
+          with
+          [
+              TTarget=torch::jit::Scope
+          ]
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\ir.h(767,29): warning C4251: “torch::jit::Node::values_”: class“std::vector<torch::jit::Node::AVPtr,std::allocator<torch::jit::Node::AVPtr>>”需要有 dll 接口由 struct“torch::jit::Node”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\ir.h(767): message : 参见“std::vector<torch::jit::Node::AVPtr,std::allocator<torch::jit::Node::AVPtr>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\op_registration\op_registration.h(540,75): warning C4251: “c10::RegisterOperators::Options::schemaOrName_”: class“c10::optional<c10::either<c10::OperatorName,c10::FunctionSchema>>”需要有 dll 接口由 class“c10::RegisterOperators::Options”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\op_registration\op_registration.h(540): message : 参见“c10::optional<c10::either<c10::OperatorName,c10::FunctionSchema>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\op_registration\op_registration.h(541,49): warning C4251: “c10::RegisterOperators::Options::legacyATenSchema_”: class“c10::optional<std::string>”需要有 dll 接口由 class“c10::RegisterOperators::Options”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(1327): message : 参见“c10::optional<std::string>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\op_registration\op_registration.h(543,50): warning C4251: “c10::RegisterOperators::Options::kernels”: class“std::vector<c10::RegisterOperators::Options::KernelRegistrationConfig,std::allocator<c10::RegisterOperators::Options::KernelRegistrationConfig>>”需要有 dll 接口由 class“c10::RegisterOperators::Options”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\op_registration\op_registration.h(543): message : 参见“std::vector<c10::RegisterOperators::Options::KernelRegistrationConfig,std::allocator<c10::RegisterOperators::Options::KernelRegistrationConfig>>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\op_registration\op_registration.h(544,51): warning C4251: “c10::RegisterOperators::Options::aliasAnalysisKind_”: class“c10::optional<c10::AliasAnalysisKind>”需要有 dll 接口由 class“c10::RegisterOperators::Options”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\op_registration\op_registration.h(544): message : 参见“c10::optional<c10::AliasAnalysisKind>”的声明
+F:\Facemask\libtorch\libtorch\include\ATen\core\op_registration\op_registration.h(690,45): warning C4251: “c10::RegisterOperators::registrars_”: class“std::vector<c10::RegisterOperators::OperatorRegistrar,std::allocator<c10::RegisterOperators::OperatorRegistrar>>”需要有 dll 接口由 class“c10::RegisterOperators”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\op_registration\op_registration.h(690): message : 参见“std::vector<c10::RegisterOperators::OperatorRegistrar,std::allocator<c10::RegisterOperators::OperatorRegistrar>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\custom_operator.h(54,67): warning C4251: “torch::jit::RegisterOperators::registrars_”: class“std::vector<std::shared_ptr<c10::RegisterOperators>,std::allocator<std::shared_ptr<c10::RegisterOperators>>>”需要有 dll 接口由 struct“torch::jit::RegisterOperators”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\custom_operator.h(54): message : 参见“std::vector<std::shared_ptr<c10::RegisterOperators>,std::allocator<std::shared_ptr<c10::RegisterOperators>>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\argument_spec.h(198,34): warning C4251: “torch::jit::ArgumentSpecCreator::instructions_”: class“std::vector<torch::jit::ArgumentSpecCreator::Inst,std::allocator<torch::jit::ArgumentSpecCreator::Inst>>”需要有 dll 接口由 struct“torch::jit::ArgumentSpecCreator”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\argument_spec.h(198): message : 参见“std::vector<torch::jit::ArgumentSpecCreator::Inst,std::allocator<torch::jit::ArgumentSpecCreator::Inst>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\argument_spec.h(231,7): warning C4267: “初始化”: 从“size_t”转换到“int32_t”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\argument_spec.h(234,1): warning C4267: “初始化”: 从“size_t”转换到“int32_t”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\argument_spec.h(234,1): warning C4267: “初始化”: 从“size_t”转换到“const int32_t”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\argument_spec.h(239,1): warning C4244: “+=”: 从“int64_t”转换到“int32_t”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\argument_spec.h(259,1): warning C4244: “+=”: 从“int64_t”转换到“int32_t”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\argument_spec.h(427,39): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\interpreter.h(52,34): warning C4251: “torch::jit::Code::pImpl”: class“std::shared_ptr<torch::jit::CodeImpl>”需要有 dll 接口由 struct“torch::jit::Code”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\interpreter.h(52): message : 参见“std::shared_ptr<torch::jit::CodeImpl>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\graph_executor.h(51,47): warning C4251: “torch::jit::GraphExecutor::pImpl”: class“std::shared_ptr<torch::jit::GraphExecutorImplBase>”需要有 dll 接口由 struct“torch::jit::GraphExecutor”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\graph_executor.h(51): message : 参见“std::shared_ptr<torch::jit::GraphExecutorImplBase>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\slot.h(57,53): warning C4251: “torch::jit::script::Slot::container_”: class“c10::intrusive_ptr<c10::ivalue::Object,c10::detail::intrusive_target_default_null_type<TTarget>>”需要有 dll 接口由 struct“torch::jit::script::Slot”的客户端使用
+          with
+          [
+              TTarget=c10::ivalue::Object
+          ]
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue.h(312): message : 参见“c10::intrusive_ptr<c10::ivalue::Object,c10::detail::intrusive_target_default_null_type<TTarget>>”的声明
+          with
+          [
+              TTarget=c10::ivalue::Object
+          ]
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\function.h(107,27): warning C4251: “torch::jit::Function::name_”: struct“c10::QualifiedName”需要有 dll 接口由 struct“torch::jit::Function”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\qualified_name.h(11): message : 参见“c10::QualifiedName”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\function.h(109,32): warning C4251: “torch::jit::Function::graph_”: class“std::shared_ptr<torch::jit::Graph>”需要有 dll 接口由 struct“torch::jit::Function”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\tracer.h(49): message : 参见“std::shared_ptr<torch::jit::Graph>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\function.h(114,65): warning C4251: “torch::jit::Function::optimized_graph_”: class“c10::optional<std::shared_ptr<torch::jit::Graph>>”需要有 dll 接口由 struct“torch::jit::Function”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\function.h(114): message : 参见“c10::optional<std::shared_ptr<torch::jit::Graph>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\function.h(122,45): warning C4251: “torch::jit::Function::compile_mutex”: class“std::recursive_mutex”需要有 dll 接口由 struct“torch::jit::Function”的客户端使用
+D:\VS2019\Install\VC\Tools\MSVC\14.25.28610\include\mutex(96): message : 参见“std::recursive_mutex”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\function.h(129,51): warning C4251: “torch::jit::Function::function_creator_”: class“std::function<void (torch::jit::Function &)>”需要有 dll 接口由 struct“torch::jit::Function”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\function.h(22): message : 参见“std::function<void (torch::jit::Function &)>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\function.h(134,50): warning C4251: “torch::jit::Function::schema_”: class“std::unique_ptr<c10::FunctionSchema,std::default_delete<c10::FunctionSchema>>”需要有 dll 接口由 struct“torch::jit::Function”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\boxing\kernel_functor.h(284): message : 参见“std::unique_ptr<c10::FunctionSchema,std::default_delete<c10::FunctionSchema>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\compilation_unit.h(246,52): warning C4251: “torch::jit::script::CompilationUnit::functions_”: class“std::vector<std::unique_ptr<torch::jit::Function,std::default_delete<torch::jit::Function>>,std::allocator<std::unique_ptr<torch::jit::Function,std::default_delete<torch::jit::Function>>>>”需要有 dll 接口由 struct“torch::jit::script::CompilationUnit”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\compilation_unit.h(246): message : 参见“std::vector<std::unique_ptr<torch::jit::Function,std::default_delete<torch::jit::Function>>,std::allocator<std::unique_ptr<torch::jit::Function,std::default_delete<torch::jit::Function>>>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\compilation_unit.h(248,55): warning C4251: “torch::jit::script::CompilationUnit::dict_”: class“std::unordered_map<c10::QualifiedName,size_t,std::hash<c10::QualifiedName>,std::equal_to<c10::QualifiedName>,std::allocator<std::pair<const c10::QualifiedName,size_t>>>”需要有 dll 接口由 struct“torch::jit::script::CompilationUnit”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\compilation_unit.h(248): message : 参见“std::unordered_map<c10::QualifiedName,size_t,std::hash<c10::QualifiedName>,std::equal_to<c10::QualifiedName>,std::allocator<std::pair<const c10::QualifiedName,size_t>>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\compilation_unit.h(249,60): warning C4251: “torch::jit::script::CompilationUnit::classDict_”: class“std::unordered_map<c10::QualifiedName,size_t,std::hash<c10::QualifiedName>,std::equal_to<c10::QualifiedName>,std::allocator<std::pair<const c10::QualifiedName,size_t>>>”需要有 dll 接口由 struct“torch::jit::script::CompilationUnit”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\compilation_unit.h(248): message : 参见“std::unordered_map<c10::QualifiedName,size_t,std::hash<c10::QualifiedName>,std::equal_to<c10::QualifiedName>,std::allocator<std::pair<const c10::QualifiedName,size_t>>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\compilation_unit.h(256,42): warning C4251: “torch::jit::script::CompilationUnit::classes_”: class“std::vector<c10::NamedTypePtr,std::allocator<c10::NamedTypePtr>>”需要有 dll 接口由 struct“torch::jit::script::CompilationUnit”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\compilation_unit.h(256): message : 参见“std::vector<c10::NamedTypePtr,std::allocator<c10::NamedTypePtr>>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(102,19): warning C4251: “torch::jit::script::Method::owner_”: class“c10::intrusive_ptr<c10::ivalue::Object,c10::detail::intrusive_target_default_null_type<TTarget>>”需要有 dll 接口由 struct“torch::jit::script::Method”的客户端使用
+          with
+          [
+              TTarget=c10::ivalue::Object
+          ]
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue.h(312): message : 参见“c10::intrusive_ptr<c10::ivalue::Object,c10::detail::intrusive_target_default_null_type<TTarget>>”的声明
+          with
+          [
+              TTarget=c10::ivalue::Object
+          ]
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(454,34): warning C4251: “torch::jit::script::Module::module_value_”: class“c10::intrusive_ptr<c10::ivalue::Object,c10::detail::intrusive_target_default_null_type<TTarget>>”需要有 dll 接口由 struct“torch::jit::script::Module”的客户端使用
+          with
+          [
+              TTarget=c10::ivalue::Object
+          ]
+F:\Facemask\libtorch\libtorch\include\ATen\core\ivalue.h(312): message : 参见“c10::intrusive_ptr<c10::ivalue::Object,c10::detail::intrusive_target_default_null_type<TTarget>>”的声明
+          with
+          [
+              TTarget=c10::ivalue::Object
+          ]
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(493,1): warning C4251: “torch::jit::script::slot_iterator_impl<T>::type_”: class“c10::optional<torch::jit::script::EntityType>”需要有 dll 接口由 struct“torch::jit::script::slot_iterator_impl<T>”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(331): message : 参见“c10::optional<torch::jit::script::EntityType>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(500): message : 查看对正在编译的 类 模板 实例化“torch::jit::script::slot_iterator_impl<T>”的引用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(493,1): warning C4251: “torch::jit::script::slot_iterator_impl<torch::jit::script::Slot>::type_”: class“c10::optional<torch::jit::script::EntityType>”需要有 dll 接口由 struct“torch::jit::script::slot_iterator_impl<torch::jit::script::Slot>”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(331): message : 参见“c10::optional<torch::jit::script::EntityType>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(503): message : 查看对正在编译的 类 模板 实例化“torch::jit::script::slot_iterator_impl<torch::jit::script::Slot>”的引用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(493,1): warning C4251: “torch::jit::script::slot_iterator_impl<torch::jit::script::Module>::type_”: class“c10::optional<torch::jit::script::EntityType>”需要有 dll 接口由 struct“torch::jit::script::slot_iterator_impl<torch::jit::script::Module>”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(331): message : 参见“c10::optional<torch::jit::script::EntityType>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(508): message : 查看对正在编译的 类 模板 实例化“torch::jit::script::slot_iterator_impl<torch::jit::script::Module>”的引用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(552,1): warning C4251: “torch::jit::script::slot_list_impl<T>::type_”: class“c10::optional<torch::jit::script::EntityType>”需要有 dll 接口由 struct“torch::jit::script::slot_list_impl<T>”的客户端使用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(331): message : 参见“c10::optional<torch::jit::script::EntityType>”的声明
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(557): message : 查看对正在编译的 类 模板 实例化“torch::jit::script::slot_list_impl<T>”的引用
+F:\Facemask\libtorch\libtorch\include\torch\csrc\jit\script\module.h(555,1): warning C4251: “torch::jit::script::slot_list_impl<T>::size_”: class“c10::optional<size_t>”需要有 dll 接口由 struct“torch::jit::script::slot_list_impl<T>”的客户端使用
+F:\Facemask\libtorch\libtorch\include\ATen\core\jit_type.h(306): message : 参见“c10::optional<size_t>”的声明
+F:\Facemask\libtorch\libtorch\include\c10\util\StringUtil.h(57,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\Facemask\libtorch\libtorch\include\ATen\core\qualified_name.h(111): message : 查看对正在编译的函数 模板 实例化“std::string c10::Join<std::vector<std::string,std::allocator<std::string>>>(const std::string &,const Container &)”的引用
+          with
+          [
+              Container=std::vector<std::string,std::allocator<std::string>>
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Optional.h(430,62): warning C4244: “参数”: 从“_Ty”转换到“T”，可能丢失数据
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+          and
+          [
+              T=int32_t
+          ]
+F:\Facemask\libtorch\libtorch\include\ATen\core\function_schema.h(225): message : 查看对正在编译的函数 模板 实例化“c10::optional<int32_t>::optional<size_t,false>(U &&)”的引用
+          with
+          [
+              U=size_t
+          ]
+F:\Facemask\libtorch\libtorch\include\ATen\core\function_schema.h(225): message : 查看对正在编译的函数 模板 实例化“c10::optional<int32_t>::optional<size_t,false>(U &&)”的引用
+          with
+          [
+              U=size_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(451,45): warning C4018: “>”: 有符号/无符号不匹配
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(497): message : 查看对正在编译的函数 模板 实例化“bool c10::overflows<To,From>(From)”的引用
+          with
+          [
+              To=int64_t,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\core\Scalar.h(72): message : 查看对正在编译的函数 模板 实例化“To c10::checked_convert<int64_t,int64_t>(From,const char *)”的引用
+          with
+          [
+              To=int64_t,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(400,28): warning C4244: “参数”: 从“From”转换到“float”，可能丢失数据
+          with
+          [
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(399): message : 在编译 类 模板 成员函数“To c10::Converter<To,From,void>::operator ()(From)”时
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(406): message : 查看对正在编译的函数 模板 实例化“To c10::Converter<To,From,void>::operator ()(From)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(406): message : 查看对正在编译的 类 模板 实例化“c10::Converter<To,From,void>”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(503): message : 查看对正在编译的函数 模板 实例化“To c10::convert<To,From>(From)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\core\Scalar.h(72): message : 查看对正在编译的函数 模板 实例化“To c10::checked_convert<c10::BFloat16,int64_t>(From,const char *)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(416,34): warning C4244: “参数”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(415): message : 在编译 类 模板 成员函数“To c10::Converter<To,From,void>::operator ()(std::complex<double>)”时
+          with
+          [
+              To=c10::BFloat16,
+              From=std::complex<double>
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(406): message : 查看对正在编译的函数 模板 实例化“To c10::Converter<To,From,void>::operator ()(std::complex<double>)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=std::complex<double>
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(406): message : 查看对正在编译的 类 模板 实例化“c10::Converter<To,From,void>”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=std::complex<double>
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(503): message : 查看对正在编译的函数 模板 实例化“To c10::convert<To,From>(From)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=std::complex<double>
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\core\Scalar.h(72): message : 查看对正在编译的函数 模板 实例化“To c10::checked_convert<c10::BFloat16,std::complex<double>>(From,const char *)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=std::complex<double>
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(400,28): warning C4244: “参数”: 从“From”转换到“float”，可能丢失数据
+          with
+          [
+              From=double
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(399): message : 在编译 类 模板 成员函数“To c10::Converter<To,From,void>::operator ()(From)”时
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(406): message : 查看对正在编译的函数 模板 实例化“To c10::Converter<To,From,void>::operator ()(From)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(406): message : 查看对正在编译的 类 模板 实例化“c10::Converter<To,From,void>”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(503): message : 查看对正在编译的函数 模板 实例化“To c10::convert<To,From>(From)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\core\Scalar.h(72): message : 查看对正在编译的函数 模板 实例化“To c10::checked_convert<c10::BFloat16,double>(From,const char *)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(400,28): warning C4244: “参数”: 从“From”转换到“const std::complex<double>::_Ty”，可能丢失数据
+          with
+          [
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(399): message : 在编译 类 模板 成员函数“To c10::Converter<To,From,void>::operator ()(From)”时
+          with
+          [
+              To=std::complex<double>,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(406): message : 查看对正在编译的函数 模板 实例化“To c10::Converter<To,From,void>::operator ()(From)”的引用
+          with
+          [
+              To=std::complex<double>,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(406): message : 查看对正在编译的 类 模板 实例化“c10::Converter<To,From,void>”的引用
+          with
+          [
+              To=std::complex<double>,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(503): message : 查看对正在编译的函数 模板 实例化“To c10::convert<To,From>(From)”的引用
+          with
+          [
+              To=std::complex<double>,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\core\Scalar.h(72): message : 查看对正在编译的函数 模板 实例化“To c10::checked_convert<std::complex<double>,int64_t>(From,const char *)”的引用
+          with
+          [
+              To=std::complex<double>,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(400,28): warning C4244: “参数”: 从“From”转换到“const std::complex<float>::_Ty”，可能丢失数据
+          with
+          [
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(399): message : 在编译 类 模板 成员函数“To c10::Converter<To,From,void>::operator ()(From)”时
+          with
+          [
+              To=std::complex<float>,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(406): message : 查看对正在编译的函数 模板 实例化“To c10::Converter<To,From,void>::operator ()(From)”的引用
+          with
+          [
+              To=std::complex<float>,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(406): message : 查看对正在编译的 类 模板 实例化“c10::Converter<To,From,void>”的引用
+          with
+          [
+              To=std::complex<float>,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(503): message : 查看对正在编译的函数 模板 实例化“To c10::convert<To,From>(From)”的引用
+          with
+          [
+              To=std::complex<float>,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\core\Scalar.h(72): message : 查看对正在编译的函数 模板 实例化“To c10::checked_convert<std::complex<float>,int64_t>(From,const char *)”的引用
+          with
+          [
+              To=std::complex<float>,
+              From=int64_t
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(400,28): warning C4244: “参数”: 从“From”转换到“const std::complex<float>::_Ty”，可能丢失数据
+          with
+          [
+              From=double
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(399): message : 在编译 类 模板 成员函数“To c10::Converter<To,From,void>::operator ()(From)”时
+          with
+          [
+              To=std::complex<float>,
+              From=double
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(406): message : 查看对正在编译的函数 模板 实例化“To c10::Converter<To,From,void>::operator ()(From)”的引用
+          with
+          [
+              To=std::complex<float>,
+              From=double
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(406): message : 查看对正在编译的 类 模板 实例化“c10::Converter<To,From,void>”的引用
+          with
+          [
+              To=std::complex<float>,
+              From=double
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\util\Half.h(503): message : 查看对正在编译的函数 模板 实例化“To c10::convert<To,From>(From)”的引用
+          with
+          [
+              To=std::complex<float>,
+              From=double
+          ]
+F:\Facemask\libtorch\libtorch\include\c10\core\Scalar.h(72): message : 查看对正在编译的函数 模板 实例化“To c10::checked_convert<std::complex<float>,double>(From,const char *)”的引用
+          with
+          [
+              To=std::complex<float>,
+              From=double
+          ]
+    正在创建库 D:\VS2019\Projects\libtorchtest\x64\Release\libtorchtest.lib 和对象 D:\VS2019\Projects\libtorchtest\x64\Release\libtorchtest.exp
+  正在生成代码
+  1 of 902 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    26 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  libtorchtest.vcxproj -> D:\VS2019\Projects\libtorchtest\x64\Release\libtorchtest.exe
